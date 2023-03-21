@@ -1,5 +1,7 @@
 # Learning Scribbles for Dense Depth:Weakly-Supervised Single Underwater Image Depth Estimation Boosted by Multi-Task Learning
 This repository is the official PyTorch implementation of WsUID-Net.
+## The final version of the code and related descriptions are constantly being refined and updated……
+
 ## Dataset preparation 
 You need to prepare datasets for following training and testing activities, the detailed information is at [Dataset Setup](data/README.md).
 
