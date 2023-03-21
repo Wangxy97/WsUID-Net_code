@@ -1,12 +1,3 @@
-'''
-简介：包含edge、semseg 、depth 的多任务网络
-     WFM模块： （是）
-     channels attention（是）
-时间：2022.7.26
-备注：
-作者：wangxy
-'''
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
