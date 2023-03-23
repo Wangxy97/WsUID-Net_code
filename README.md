@@ -14,7 +14,7 @@ This repository is the official PyTorch implementation of WsUID-Net.
     * visdom = 0.1.8.9
 
 ## Dataset preparation 
-* You need to prepare datasets for following training and testing activities. You can download SUIM-SDA dataset from [Google Drive](https://drive.google.com/file/d/****) or [Baidu Netdisk](http://).
+* You need to prepare datasets for following training and testing activities. You can download SUIM-SDA dataset from [Google Drive](https://drive.google.com/file/d/19HGObIYPAZzNVR0OA3phzCUfag8WEk84/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1piaYyjz9P2wzUw9nNGlciQ?pwd=81sw).
     * Decompress the SUIM-SDA package to the ./datasets folder
     * You can calculate the edge graph according to the semantic segmentation mask in SUIM-SDA, or download the edge graph directly from [here](http://).
 * Run ./data/Conver_data.py.  Convert the .csv file that stores the depth-rank samples to the .pkl file used for training.
@@ -23,13 +23,14 @@ python Conver_data.py
 ```
 
 ## Train
-You need to modify the input and output paths in train.py depending on where your data set is stored on disk, then run the following code in the terminal:
+* You need to modify the input and output paths in train.py depending on where your data set is stored on disk, then run the following code in the terminal:
 
 ```
 python3 -m visdom.server -port=8007
 python train.py 
 ```
 ## Test
+* You need to change ckpt_path in the test.py file, then run the following code in the terminal:
 ```
 python test.py 
 ```
