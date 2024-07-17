@@ -1,9 +1,7 @@
 # Learning Scribbles for Dense Depth:Weakly-Supervised Single Underwater Image Depth Estimation Boosted by Multi-Task Learning
-[[Project]](https://wangxy97.github.io/WsUIDNet) [[Paper]](https://arxiv.org/XXX) [[Dataset]](https://github.com/Wangxy97/SUIM-SDA_Dataset)
+[[Project]](https://wangxy97.github.io/WsUIDNet) [[Paper]](https://ieeexplore.ieee.org/document/10415086?source=authoralert) [[Dataset]](https://github.com/Wangxy97/SUIM-SDA_Dataset)
 
 This repository is the official PyTorch implementation of WsUID-Net.
-
-## The final version of the code and related descriptions are constantly being refined and updated……
 
 ## Package requirements
 * The following packages are required to run the codes. Note: the version of the packages were the ones we used and are suggestive, not mandatory.
