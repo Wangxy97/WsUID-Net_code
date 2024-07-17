@@ -39,12 +39,12 @@ To test on the pre-trained models, change ckpt_path in the test.py file.
 
 ## Citation
 ```
-@article{w2023wsuid,
-  title={Learning Scribbles for Dense Depth:Weakly-Supervised Single Underwater Image Depth Estimation Boosted by Multi-Task Learning},
-  author={Kunqian Li and Xiya Wang and Wenjie Liu and Guojia Hou and Zhiguo Zhang and Kun Sun},
-  journal={arXiv preprint arXiv:xxxx.xxxx},
-  year={2023}
-}
+@ARTICLE{10415086,
+  author={Li, Kunqian and Wang, Xiya and Liu, Wenjie and Qi, Qi and Hou, Guojia and Zhang, Zhiguo and Sun, Kun},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Learning Scribbles for Dense Depth: Weakly Supervised Single Underwater Image Depth Estimation Boosted by Multitask Learning}, 
+  year={2024}
+  doi={10.1109/TGRS.2024.3358892}}
 ```
 
 ## Acknowledgements
